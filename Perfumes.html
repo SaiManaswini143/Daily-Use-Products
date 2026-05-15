@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perfumes</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:50px;
+            }
+            #block2{
+                display:flex;
+                padding:50px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                margin-top: -35px;
+                padding:100px;  
+            }
+            #text2{
+                margin-top: -50px;
+                padding:100px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>PERFUMES</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Fashion/Perfume-1.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">SAUVAGE</h3>
+                    <h3>Sauvage, a Perfume Men, 100ml | Long Lasting Perfume for Men | Diwali Gift | Premium Luxury Fragrance Scent | Aromatic Blend of Amber & Musk | Suitable for Every Occasion</h4>
+                    <h2>COST : 2999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('SAUVAGE',2999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Fashion/Perfume-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Fashion/Perfume-2.png" style="width: 550px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">BELLA VITA PERFUME</h3>
+                    <h3>Bella Vita Luxury Woman Eau De Parfum Gift Set 4x20 ml for Women with Date, Senorita, Glam, Rose Perfume|Floral, Fruity Long Lasting EDP Fragrance Scent</h4>
+                    <h2>COST : 1999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('BELLA VITA PERFUME',1999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Fashion/Perfume-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

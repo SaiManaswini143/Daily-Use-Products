@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 55px;
+
+}
+.nav-links {
+    font-size: 20px;
+    display: flex;
+}
+#logo{     
+    height:80px;                 
+    color: blueviolet;
+    background-color: white;
+}
+#siri{ 
+    color: blueviolet;
+    font-size: 90px;
+    text-align: center;
+}
+#s{
+    color: rgb(138,43,226);
+}
+#name{
+    color:rgb(173, 18, 175);
+}
+main{
+    text-align: center;
+}           
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px ;
+    background-color:white;
+    padding: 0 32px 32px 32px;
+}
+.item-card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
+    gap: 16px;
+    font-size: .7rem;
+    background-color: white;
+    padding: 16px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.item-card img {
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.item-card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007185;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
+.base{
+    background-color: #33333357;
+    color: black;
+    margin-top: 40px;
+}            

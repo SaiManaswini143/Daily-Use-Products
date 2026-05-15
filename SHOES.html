@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shoes</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                
+                padding-left:45px;  
+            }
+            #text2{
+                margin-top: -50px;
+                padding:50px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>SHOES</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Fashion/Shoe-1.png" width="530" height="300"></div>
+                <div id="text1">
+                    <h3 id="item">SNEAKER</h3>
+                    <h3>ASIAN Men's BOSTON-02 White Casual Sneaker Shoes with Synthetic Upper Lightweight Comfortable Mid Top Sneaker Shoes for Men's & Boy's</h4>
+                    <h2>COST : 2050</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('SNEAKER',2050)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Fashion/Shoe-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Fashion/Shoe-2.png" width="530" height="300"></div>
+                <div id="text2">
+                    <h3 id="item">MENS SHOES</h3>
+                    <h3>Centrino Mens 6712 Running Shoes Ultra Lightweight Breathable Comfortable Walking Shoes Casual Fashion Cushioned Sneakers Mesh Workout Shoes</h4>
+                    <h2>COST : 1999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('MENS SHOES',1999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Fashion/Shoe-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

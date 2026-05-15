@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mobile Phones</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                padding:100px;  
+                padding-top:40px;
+            }
+            #text2{
+                margin-top: -50px;
+                padding:100px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>MOBILE PHONES</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="https://raw.githubusercontent.com/hdpngworld/HPW/main/uploads/650377b993e4b-i%20phone%2015%20pink.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">APPLE IPHONE 15</h3>
+                    <h3>The iPhone 15 features a brilliant display, powerful A16 chip, and a 48MP camera — all in a sleek, durable design with USB-C charging. Its features include having a stunning design, powerful performance, and advanced camera capabilities. Built with precision and innovation, the iPhone 15 is designed to deliver an exceptional user experience .</h4>
+                    <h2 id="cost">COST : 69,999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('APPLE IPHONE 15',69999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Electronics/Mobile Phone-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Electronics/Mobile Phone-2.png" style="width: 550px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">LG K10 SMART PHONE</h3>
+                    <h3>This Smartphone combine sleek design with innovative features to deliver a powerful and enjoyable mobile experience. Known for their sharp displays, multi-camera setups, and immersive audio, LG phones offer strong performance whether you're streaming, gaming, or multitasking. </h3>
+                    <h2>COST : 9,999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('LG K10 SMART PHONE',9999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Mobile Phone-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

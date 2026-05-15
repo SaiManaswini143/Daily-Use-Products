@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>SIRI PRODUCTS</title>
+        <link rel="stylesheet" type="css" href="style.css">
+        <style>
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #333;
+                padding: 15px 20px;
+            }
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 10px 55px;
+            }
+            .nav-links {
+                font-size: 20px;
+                display: flex;
+            }
+            #logo{     
+                height:80px;                 
+                color: blueviolet;
+                background-color: white;
+            }
+            #section-1{
+                text-align: center;
+                font-size: 30px;
+                color: #333;
+                margin-top: 40px;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 10px;
+            }
+            #section-2{
+                font-size: 30px;
+                color: #333;
+                margin-top: 40px;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 10px;
+            }
+            #section-3{
+                font-size: 30px;
+                color: #333;
+                margin-top: 40px;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 10px;
+            }
+            #siri{ 
+                color: blueviolet;
+                font-size: 90px;
+                text-align: center;
+            }
+            #s{
+                color: rgb(138,43,226);
+            }
+            #name{
+                font-size: 18px;
+                color:rgb(173, 18, 175);
+            }
+            main{
+                text-align: center;
+            }           
+            .items-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap:30px ;
+                background-color:white;
+                padding: 0 32px 32px 32px;
+            }
+            .item-card {
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 300px;
+                gap: 16px;
+                font-size: .7rem;
+                background-color: white;
+                padding: 16px;   
+                /* cursor: pointer;
+                overflow: hidden; */        
+            }
+            .item-card img {
+                height: 300px;
+                width: 100%;
+                border: 2px solid black;
+                object-fit: cover;
+            }   
+            .item-card img {
+                transition: transform 0.3s;
+            }
+            .item-card:hover img {
+                transform: scale(1.1);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            }
+            .footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 20px;
+                position: relative;
+                width: 100%;
+            }
+            .base{
+                background-color: #33333357;
+                color: black;
+                margin-top: 40px;
+            }     
+                  
+        </style>
+    </head>    
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">DAILY USE PRODUCTS</a>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="My-cart.js">My Cart</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="logo"><h1 id="siri">DAILY-USE PRODUCTS</h1></div>
+            <div><h1 id="s">One place for all your daily needs...</h1></div> 
+            <h2 id="section-1" style="color:#FF6500;">ELECTRONICS</h2>
+            <div class="items-container">
+                <div class="item-card">
+                    <h2 id="name">MOBILE PHONES</h2>
+                    <a href="Mobile Phones.html">
+                        <img src=
+    "https://img.freepik.com/premium-photo/smartphone-balancing-with-pink-background_23-2150271746.jpg?semt=ais_hybrid&w=740">
+                    </a>
+                    <p>
+                        <a href="Mobile Phones.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">LAPTOPS</h2>
+                    <a href="Laptops.html">
+                        <img src=
+    "https://cdn.thewirecutter.com/wp-content/media/2024/11/cheapgaminglaptops-2048px-7981.jpg">
+                    </a>
+                    <p>
+                        <a href="Laptops.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">GADGETS</h2>
+                    <a href="Gadgets.html">
+                        <img src=
+    "https://media.geeksforgeeks.org/wp-content/uploads/20240326122918/image15.jpg">
+                    </a>
+                    <p>
+                        <a href="Gadgets.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">HEADSETS</h2>
+                    <a href="Headsets.html">
+                        <img src=
+    "https://media.geeksforgeeks.org/wp-content/uploads/20240326122916/image11.jpg">
+                    </a>
+                    <p>
+                        <a href="Headsets.html">SEE MORE</a>
+                    </p>
+                </div>
+            </div>
+            <h2 id="section-2" style="color:#E80F88;">FASHION</h2>
+            <div class="items-container">
+                <div class="item-card">
+                    <h2 id="name">FASHION CLOTHES</h2>
+                    <a href="Fashion.html">
+                        <img src=
+    "https://media.geeksforgeeks.org/wp-content/uploads/20240326122915/image9.jpg">
+                    </a>
+                    <p>
+                        <a href="Fashion.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">PERFUMES</h2>
+                    <a href="Perfumes.html">
+                        <img src=
+    "https://m.media-amazon.com/images/I/51dp6BGML8L._SY355_.jpg">
+                    </a>
+                    <p>
+                        <a href="Perfumes.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">SHOES</h2>
+                    <a href="SHOES.html">
+                        <img src=
+    "https://t3.ftcdn.net/jpg/05/51/23/74/240_F_551237460_67XERxz6klOToIcR8odKHBa9pb0WwBDO.jpg">
+                    </a> 
+                    <p>
+                        <a href="SHOES.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">MAKEUP ACCEESSORIES</h2>
+                    <a href="Makeup.html">
+                        <img src=
+    "https://media.geeksforgeeks.org/wp-content/uploads/20240326122915/image8.jpg">
+                    </a>
+                    <p>
+                        <a href="Makeup.html">SEE MORE</a>
+                    </p>
+                </div>
+            </div>
+            <h2 id="section-3" style="color:#5727A3;">FOOD & BEVERAGES</h2>
+            <div class="items-container">
+                <div class="item-card">
+                    <h2 id="name">FOOD</h2>
+                    <a href="Food.html">
+                        <img src="Food & Bevarages/Food.png">                    
+                    </a>
+                    <p>
+                        <a href="Food.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">ICE CREAMS</h2>
+                    <a href="Ice creams.html">
+                        <img src=
+    "https://funcakes.com/content/uploads/2023/06/Ice-cream-recipe-960x540-c-default.jpg">
+                    </a>
+                    <p>
+                        <a href="Ice creams.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">BEVARAGES</h2>
+                    <a href="Bevarages.html">
+                        <img src=
+    "https://www.fifteenspatulas.com/wp-content/uploads/2015/07/Refreshing-Summer-Drinks-Fifteen-Spatulas-1-640x640.jpg"
+                    </a>
+                    <p>
+                        <a href="Bevarages.html">SEE MORE</a>
+                    </p>
+                </div>
+                <div class="item-card">
+                    <h2 id="name">FRUITS</h2>
+                    <a href="Fruits.html">
+                        <img src="Food & Bevarages/Fruits.png">
+                    </a>
+                    <p>
+                        <a href="Fruits.html">SEE MORE</a>
+                    </p>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2026 DAILY PRODUCTS. All Rights Reserved.</p>
+            </footer>
+        </main>
+        <script src="My-cart.js"></script>
+    </body>
+</html>

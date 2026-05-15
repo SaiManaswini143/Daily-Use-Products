@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Makeup Accessories</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                padding:60px;  
+            }
+            #text2{
+                padding:60px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>MAKEUP ACCESSORIES</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Fashion/Makeup-1.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">MAKEUP DRESSER</h3>
+                    <h3>This Makeup dresser with lights is a vanity table featuring an illuminated mirror, drawers for storage, and often a stool. It helps provide perfect lighting for makeup application with adjustable LED lights (usually warm, neutral, or cool tones).</h4>
+                    <h2>COST : 6999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('MAKEUP DRESSER',6999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Fashion/Makeup-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Fashion/Makeup-2.png" style="width: 550px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">MAKEUP PALETTE</h3>
+                    <h3>It is a compact cosmetic kit containing a variety of colors and products like eyeshadows, blushes, highlighters, or lip shades. It offers a convenient all-in-one solution for creating diverse makeup looks, from natural to bold glam.</h4>
+                    <h2>COST : 500</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('MAKEUP PALETTE',500)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Fashion/Makeup-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

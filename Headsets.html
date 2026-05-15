@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Headsets</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:50px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                padding:100px;  
+            }
+            #text2{
+                margin-top: -50px;
+                padding:50px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>HEADSETS</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Electronics/Headset-1.png" style="width: 500px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">BOULT HEADPHONES</h3>
+                    <h3>Boult Newly Launched Q Over Ear Bluetooth Headphones with 70H Playtime, 40mm Bass Drivers, Zen™ ENC Mic, Type-C Fast Charging, 4 EQ Modes, Bluetooth 5.4, AUX Option, IPX5 Wireless Headphones (Black)</h4>
+                    <h2 id="cost">COST : 1499</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('BOULT HEADPHONES',1499)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Headset-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Electronics/Headset-2.png" style="width: 500px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">ARCHER TECH HEADPHONES</h3>
+                    <h3>Noise 3 Wireless On-Ear Headphones with 70H Playtime, 40mm Driver, Low Latency(up to 45ms),Dual Pairing, BT v5.3 (Midnight Blue)</h4>
+                    <h2 id="cost">COST : 1549</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('ARCHER TECH HEADPHONES',1549)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Headset-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

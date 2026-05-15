@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ice creams</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                padding:100px;  
+                padding-top: 20px;
+            }
+            #text2{
+                padding:100px;
+                padding-top: 20px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>ICE CREAMS</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Food & Bevarages/Ice cream-1.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">ICE CREAM CONE</h3>
+                    <h3>Ot is a crispy, edible cone filled with creamy, frozen dessert—perfectly shaped for easy snacking. Available in a variety of flavors like vanilla, chocolate, and strawberry, it's a fun and tasty treat loved by all ages.</h4>
+                    <h2 id="cost">COST : 40</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('ICE CREAM CONE',40)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Food & Bevarages/Ice cream-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Food & Bevarages/Ice cream-2.png" style="width: 550px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">HEART SHAPED CUP ICE CREAM</h3>
+                    <h3>This ice cream is served in a cute, heart-shaped cup—perfect for gifting or enjoying on special occasions. Often available in flavors like chocolate, strawberry, or butterscotch, it's a fun and visually appealing dessert loved by all ages.</h4>
+                    <h2 id="cost">COST : 120</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('HEART SHAPED CUP ICE CREAM',120)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Food & Bevarages/Ice cream-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gadget store</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                padding:100px;
+                padding-top: 25px;  
+            }
+            #text2{
+                margin-top: -50px;
+                padding:100px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>GADGET STORE</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Electronics/Gadget-1.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">LOGITECH GAMING MOUSE</h3>
+                    <h3>Logitech Gaming Mouse offers high-performance, ergonomic designs for gamers of all levels. Known for precision sensors (like HERO), customizable buttons, and lightweight builds</h4>
+                    <h2 id="cost">COST : 8,999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('LOGITECH GAMING MOUSE',8999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Gadget-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Electronics/Gadget-2.png" style="width: 550px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">GAMING RGB KEYBOARD</h3>
+                    <h3>A gaming RGB keyboard is a specially designed keyboard for gamers, featuring vibrant customizable RGB lighting, high-speed mechanical or membrane switches, and anti-ghosting or N-key rollover for fast, accurate inputs</h4>
+                    <h2 id="cost">COST : 1999</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('GAMING RGB KEYBOARD',1999)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Gadget-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bevarages</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                margin-top: -30px;
+                padding:100px;  
+            }
+            #text2{
+                margin-top: -30px;
+                padding:100px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>BEVARAGES</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Food & Bevarages/Bevarage-1.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">FANTA</h3>
+                    <h3>Fanta is a fruity, fizzy soft drink known for its bold orange flavor and refreshing taste. Perfect for parties, meals, or anytime thirst hits, it delivers a burst of fun with every sip. Enjoy it chilled!</h4>
+                    <h2>COST : 35</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('FANTA',35)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Food & Bevarages/Bevarage-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Food & Bevarages/Bevarage-2.png" style="width: 550px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">RED BULL</h3>
+                    <h3>Red Bull is a popular energy drink that boosts alertness and stamina. With its signature mix of caffeine, taurine, and B-vitamins, it’s perfect for staying energized during long days, workouts, or late-night work sessions. Best served chilled!</h4>
+                    <h2>COST : 99</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('RED BULL',99)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>                
+                    <h4 id="view_product">
+                        <a href="Food & Bevarages/Bevarage-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+        <script src="Main.js"></script>
+    </body>
+</html>

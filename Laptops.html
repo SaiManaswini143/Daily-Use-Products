@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laptops</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #photo1{
+                width:-150%;
+                height:-150%;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                padding:100px;  
+                padding-top:20px;
+            }
+            #text2{
+                margin-top: -50px;
+                padding:100px;
+            }
+            <!DOCTYPE html>
+<html>
+    <head>
+        <title>Bevarages</title>
+        <style>
+            h1{
+                padding-top: 15px;
+                color: blueviolet;
+                text-align: center;
+            }
+            h2{
+                color: blueviolet;
+                text-align: center;
+            }
+            #block1{
+                display:flex;
+                padding:70px;
+            }
+            #block2{
+                display:flex;
+                padding:70px;
+            }
+            #item{
+                color:crimson;
+            }
+            #text1{
+                margin-top: -30px;
+                padding:100px;  
+            }
+            #text2{
+                margin-top: -30px;
+                padding:100px;
+            }
+            #cart{
+                margin-left: 155px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 15%;
+            }
+            #view_product{
+                margin-left: 250px;
+                padding-top: 5px;
+                width: 150px;
+                height: 25px;
+                text-align: center;
+                background-color: orange;
+                border-radius: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>LAPTOPS</h1>
+            <div ID="block1">
+                <div id="photo1"><img src="Electronics/Laptop-1.png" style="width: 550px; height:500px"></div>
+                <div id="text1">
+                    <h3 id="item">MACBOOK 12-INCH</h3>
+                    <h3>A compact and ultra-lightweight laptop with a Retina display, single USB-C port, and fanless design. Ideal for everyday tasks and on-the-go productivity, it combines sleek aesthetics with silent performance.</h4>
+                    <h2 id="cost">COST : 30,000</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('MACBOOK 12-INCH',30000)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Laptop-1.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div ID="block2">
+                <div id="photo2"><img src="Electronics/Laptop-2.png" style="width: 530px; height:500px"></div>
+                <div id="text2">
+                    <h3 id="item">APPLE MACBOOK</h3>
+                    <h3>The Apple MacBook is a sleek, lightweight laptop designed for performance and portability. With a vibrant Retina display, long battery life, and smooth macOS integration, it’s perfect for students, professionals, and creatives. Its all-metal design, fast processors, and responsive keyboard make it both powerful and stylish.</h4>
+                    <h2 id="cost">COST : 99,900</h2>
+                    <h4>QUANTITY</h4>
+                    <select>
+                        <option>Quantity : 1</option>
+                        <option>Quantity : 2</option>
+                        <option>Quantity : 3</option>
+                    </select>
+                    <button id="cart" onclick="addToCart('APPLE MACBOOK',99900)" style="text-decoration: none; color: inherit;"><strong>Add to cart</strong></button>
+                    <h4 id="view_product">
+                        <a href="Electronics/Laptop-2.mp4" style="text-decoration: none; color: inherit;">
+                            VIEW PRODUCT
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        </main>
+    <script src="Main.js"></script>
+    </body>
+</html>
